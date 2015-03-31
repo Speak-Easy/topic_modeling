@@ -1,0 +1,1101 @@
+{
+	"text"      : "looooove anthro ! ! ! this one is huge compared to the one in burlingame , but small compared to the one in union square and nyc : - ) they have the cutest fashion and home accessories ! i can only afford the sales racks but when i was here a few weeks ago to pick up some presents for friends , this location had a lot of sales items ! oh how i can 't wait to go back ! ! the staff was really helpful with getting me boxes to fit my odd shaped presents and they just looked so adorable in their boxes when they were all wrapped up . ",
+	"language"  : "en",
+	"terms"     : {
+ 	"t1":
+	{
+		"type"       :"open",
+		"lemma"      :"looooove",
+		"text"       :"looooove",
+		"pos"        :"V",
+		"morphofeat" :"VB",
+		"opinion"    :"o1"
+	},
+ 	"t2":
+	{
+		"type"       :"open",
+		"lemma"      :"anthro",
+		"text"       :"anthro",
+		"pos"        :"A",
+		"morphofeat" :"RB",
+		"opinion"    :"o1"
+	},
+ 	"t3":
+	{
+		"type"       :"close",
+		"lemma"      :"!",
+		"text"       :"!",
+		"pos"        :"O",
+		"morphofeat" :".",
+		"opinion"    :"o1"
+	},
+ 	"t4":
+	{
+		"type"       :"close",
+		"lemma"      :"!",
+		"text"       :"!",
+		"pos"        :"O",
+		"morphofeat" :".",
+		"opinion"    :"o1"
+	},
+ 	"t5":
+	{
+		"type"       :"close",
+		"lemma"      :"!",
+		"text"       :"!",
+		"pos"        :"O",
+		"morphofeat" :".",
+		"opinion"    :"o1"
+	},
+ 	"t6":
+	{
+		"type"       :"close",
+		"lemma"      :"this",
+		"text"       :"this",
+		"pos"        :"D",
+		"morphofeat" :"DT"
+	},
+ 	"t7":
+	{
+		"type"       :"open",
+		"lemma"      :"one",
+		"text"       :"one",
+		"pos"        :"N",
+		"morphofeat" :"NN"
+	},
+ 	"t8":
+	{
+		"type"       :"open",
+		"lemma"      :"be",
+		"text"       :"is",
+		"pos"        :"V",
+		"morphofeat" :"VBZ"
+	},
+ 	"t9":
+	{
+		"type"       :"open",
+		"lemma"      :"huge",
+		"text"       :"huge",
+		"pos"        :"G",
+		"morphofeat" :"JJ",
+		"opinion"    :"o2"
+	},
+ 	"t10":
+	{
+		"type"       :"open",
+		"lemma"      :"compare",
+		"text"       :"compared",
+		"pos"        :"V",
+		"morphofeat" :"VBN",
+		"opinion"    :"o2"
+	},
+ 	"t11":
+	{
+		"type"       :"close",
+		"lemma"      :"to",
+		"text"       :"to",
+		"pos"        :"P",
+		"morphofeat" :"TO",
+		"opinion"    :"o2"
+	},
+ 	"t12":
+	{
+		"type"       :"close",
+		"lemma"      :"the",
+		"text"       :"the",
+		"pos"        :"D",
+		"morphofeat" :"DT",
+		"opinion"    :"o2"
+	},
+ 	"t13":
+	{
+		"type"       :"open",
+		"lemma"      :"one",
+		"text"       :"one",
+		"pos"        :"N",
+		"morphofeat" :"NN",
+		"opinion"    :"o2"
+	},
+ 	"t14":
+	{
+		"type"       :"close",
+		"lemma"      :"in",
+		"text"       :"in",
+		"pos"        :"P",
+		"morphofeat" :"IN",
+		"opinion"    :"o2"
+	},
+ 	"t15":
+	{
+		"type"       :"open",
+		"lemma"      :"burlingame",
+		"text"       :"burlingame",
+		"pos"        :"N",
+		"morphofeat" :"NN",
+		"opinion"    :"o2"
+	},
+ 	"t16":
+	{
+		"type"       :"close",
+		"lemma"      :",",
+		"text"       :",",
+		"pos"        :"O",
+		"morphofeat" :","
+	},
+ 	"t17":
+	{
+		"type"       :"close",
+		"lemma"      :"but",
+		"text"       :"but",
+		"pos"        :"C",
+		"morphofeat" :"CC",
+		"opinion"    :"o3"
+	},
+ 	"t18":
+	{
+		"type"       :"open",
+		"lemma"      :"small",
+		"text"       :"small",
+		"pos"        :"G",
+		"morphofeat" :"JJ",
+		"opinion"    :"o3"
+	},
+ 	"t19":
+	{
+		"type"       :"open",
+		"lemma"      :"compare",
+		"text"       :"compared",
+		"pos"        :"V",
+		"morphofeat" :"VBN",
+		"opinion"    :"o3"
+	},
+ 	"t20":
+	{
+		"type"       :"close",
+		"lemma"      :"to",
+		"text"       :"to",
+		"pos"        :"P",
+		"morphofeat" :"TO",
+		"opinion"    :"o3"
+	},
+ 	"t21":
+	{
+		"type"       :"close",
+		"lemma"      :"the",
+		"text"       :"the",
+		"pos"        :"D",
+		"morphofeat" :"DT",
+		"opinion"    :"o3"
+	},
+ 	"t22":
+	{
+		"type"       :"open",
+		"lemma"      :"one",
+		"text"       :"one",
+		"pos"        :"N",
+		"morphofeat" :"NN",
+		"opinion"    :"o3"
+	},
+ 	"t23":
+	{
+		"type"       :"close",
+		"lemma"      :"in",
+		"text"       :"in",
+		"pos"        :"P",
+		"morphofeat" :"IN",
+		"opinion"    :"o3"
+	},
+ 	"t24":
+	{
+		"type"       :"open",
+		"lemma"      :"union",
+		"text"       :"union",
+		"pos"        :"N",
+		"morphofeat" :"NN",
+		"opinion"    :"o3"
+	},
+ 	"t25":
+	{
+		"type"       :"open",
+		"lemma"      :"square",
+		"text"       :"square",
+		"pos"        :"N",
+		"morphofeat" :"NN",
+		"opinion"    :"o3"
+	},
+ 	"t26":
+	{
+		"type"       :"close",
+		"lemma"      :"and",
+		"text"       :"and",
+		"pos"        :"C",
+		"morphofeat" :"CC",
+		"opinion"    :"o3"
+	},
+ 	"t27":
+	{
+		"type"       :"open",
+		"lemma"      :"nyc",
+		"text"       :"nyc",
+		"pos"        :"N",
+		"morphofeat" :"NN",
+		"opinion"    :"o3"
+	},
+ 	"t28":
+	{
+		"type"       :"close",
+		"lemma"      :":",
+		"text"       :":",
+		"pos"        :"O",
+		"morphofeat" :":",
+		"opinion"    :"o3"
+	},
+ 	"t29":
+	{
+		"type"       :"close",
+		"lemma"      :"-",
+		"text"       :"-",
+		"pos"        :"O",
+		"morphofeat" :":",
+		"opinion"    :"o3"
+	},
+ 	"t30":
+	{
+		"type"       :"close",
+		"lemma"      :")",
+		"text"       :")",
+		"pos"        :"O",
+		"morphofeat" :")",
+		"opinion"    :"o3"
+	},
+ 	"t31":
+	{
+		"type"       :"close",
+		"lemma"      :"they",
+		"text"       :"they",
+		"pos"        :"Q",
+		"morphofeat" :"PRP",
+		"opinion"    :"o3"
+	},
+ 	"t32":
+	{
+		"type"       :"open",
+		"lemma"      :"have",
+		"text"       :"have",
+		"pos"        :"V",
+		"morphofeat" :"VBP",
+		"opinion"    :"o3"
+	},
+ 	"t33":
+	{
+		"type"       :"close",
+		"lemma"      :"the",
+		"text"       :"the",
+		"pos"        :"D",
+		"morphofeat" :"DT",
+		"opinion"    :"o3"
+	},
+ 	"t34":
+	{
+		"type"       :"open",
+		"lemma"      :"cutest",
+		"text"       :"cutest",
+		"pos"        :"G",
+		"morphofeat" :"JJS",
+		"opinion"    :"o3"
+	},
+ 	"t35":
+	{
+		"type"       :"open",
+		"lemma"      :"fashion",
+		"text"       :"fashion",
+		"pos"        :"N",
+		"morphofeat" :"NN",
+		"opinion"    :"o3"
+	},
+ 	"t36":
+	{
+		"type"       :"close",
+		"lemma"      :"and",
+		"text"       :"and",
+		"pos"        :"C",
+		"morphofeat" :"CC",
+		"opinion"    :"o3"
+	},
+ 	"t37":
+	{
+		"type"       :"open",
+		"lemma"      :"home",
+		"text"       :"home",
+		"pos"        :"N",
+		"morphofeat" :"NN",
+		"opinion"    :"o3"
+	},
+ 	"t38":
+	{
+		"type"       :"open",
+		"lemma"      :"accessory",
+		"text"       :"accessories",
+		"pos"        :"N",
+		"morphofeat" :"NNS",
+		"opinion"    :"o3"
+	},
+ 	"t39":
+	{
+		"type"       :"close",
+		"lemma"      :"!",
+		"text"       :"!",
+		"pos"        :"O",
+		"morphofeat" :".",
+		"opinion"    :"o3"
+	},
+ 	"t40":
+	{
+		"type"       :"open",
+		"lemma"      :"i",
+		"text"       :"i",
+		"pos"        :"N",
+		"morphofeat" :"NNS"
+	},
+ 	"t41":
+	{
+		"type"       :"close",
+		"lemma"      :"can",
+		"text"       :"can",
+		"pos"        :"O",
+		"morphofeat" :"MD",
+		"opinion"    :"o4"
+	},
+ 	"t42":
+	{
+		"type"       :"open",
+		"lemma"      :"only",
+		"text"       :"only",
+		"pos"        :"A",
+		"morphofeat" :"RB",
+		"opinion"    :"o4"
+	},
+ 	"t43":
+	{
+		"type"       :"open",
+		"lemma"      :"afford",
+		"text"       :"afford",
+		"pos"        :"V",
+		"morphofeat" :"VB",
+		"opinion"    :"o4"
+	},
+ 	"t44":
+	{
+		"type"       :"close",
+		"lemma"      :"the",
+		"text"       :"the",
+		"pos"        :"D",
+		"morphofeat" :"DT",
+		"opinion"    :"o4"
+	},
+ 	"t45":
+	{
+		"type"       :"open",
+		"lemma"      :"sale",
+		"text"       :"sales",
+		"pos"        :"N",
+		"morphofeat" :"NNS",
+		"opinion"    :"o4"
+	},
+ 	"t46":
+	{
+		"type"       :"open",
+		"lemma"      :"rack",
+		"text"       :"racks",
+		"pos"        :"N",
+		"morphofeat" :"NNS",
+		"opinion"    :"o4"
+	},
+ 	"t47":
+	{
+		"type"       :"close",
+		"lemma"      :"but",
+		"text"       :"but",
+		"pos"        :"C",
+		"morphofeat" :"CC",
+		"opinion"    :"o4"
+	},
+ 	"t48":
+	{
+		"type"       :"close",
+		"lemma"      :"when",
+		"text"       :"when",
+		"pos"        :"O",
+		"morphofeat" :"WRB",
+		"opinion"    :"o4"
+	},
+ 	"t49":
+	{
+		"type"       :"open",
+		"lemma"      :"i",
+		"text"       :"i",
+		"pos"        :"N",
+		"morphofeat" :"NNS",
+		"opinion"    :"o4"
+	},
+ 	"t50":
+	{
+		"type"       :"open",
+		"lemma"      :"be",
+		"text"       :"was",
+		"pos"        :"V",
+		"morphofeat" :"VBD",
+		"opinion"    :"o4"
+	},
+ 	"t51":
+	{
+		"type"       :"open",
+		"lemma"      :"here",
+		"text"       :"here",
+		"pos"        :"A",
+		"morphofeat" :"RB",
+		"opinion"    :"o4"
+	},
+ 	"t52":
+	{
+		"type"       :"close",
+		"lemma"      :"a",
+		"text"       :"a",
+		"pos"        :"D",
+		"morphofeat" :"DT",
+		"opinion"    :"o4"
+	},
+ 	"t53":
+	{
+		"type"       :"open",
+		"lemma"      :"few",
+		"text"       :"few",
+		"pos"        :"G",
+		"morphofeat" :"JJ",
+		"opinion"    :"o4"
+	},
+ 	"t54":
+	{
+		"type"       :"open",
+		"lemma"      :"week",
+		"text"       :"weeks",
+		"pos"        :"N",
+		"morphofeat" :"NNS",
+		"opinion"    :"o4"
+	},
+ 	"t55":
+	{
+		"type"       :"close",
+		"lemma"      :"ago",
+		"text"       :"ago",
+		"pos"        :"P",
+		"morphofeat" :"IN",
+		"opinion"    :"o4"
+	},
+ 	"t56":
+	{
+		"type"       :"close",
+		"lemma"      :"to",
+		"text"       :"to",
+		"pos"        :"P",
+		"morphofeat" :"TO",
+		"opinion"    :"o4"
+	},
+ 	"t57":
+	{
+		"type"       :"open",
+		"lemma"      :"pick",
+		"text"       :"pick",
+		"pos"        :"V",
+		"morphofeat" :"VB",
+		"opinion"    :"o4"
+	},
+ 	"t58":
+	{
+		"type"       :"close",
+		"lemma"      :"up",
+		"text"       :"up",
+		"pos"        :"O",
+		"morphofeat" :"RP",
+		"opinion"    :"o4"
+	},
+ 	"t59":
+	{
+		"type"       :"close",
+		"lemma"      :"some",
+		"text"       :"some",
+		"pos"        :"D",
+		"morphofeat" :"DT",
+		"opinion"    :"o4"
+	},
+ 	"t60":
+	{
+		"type"       :"open",
+		"lemma"      :"present",
+		"text"       :"presents",
+		"pos"        :"N",
+		"morphofeat" :"NNS",
+		"opinion"    :"o4"
+	},
+ 	"t61":
+	{
+		"type"       :"close",
+		"lemma"      :"for",
+		"text"       :"for",
+		"pos"        :"P",
+		"morphofeat" :"IN",
+		"opinion"    :"o4"
+	},
+ 	"t62":
+	{
+		"type"       :"open",
+		"lemma"      :"friend",
+		"text"       :"friends",
+		"pos"        :"N",
+		"morphofeat" :"NNS",
+		"opinion"    :"o4"
+	},
+ 	"t63":
+	{
+		"type"       :"close",
+		"lemma"      :",",
+		"text"       :",",
+		"pos"        :"O",
+		"morphofeat" :","
+	},
+ 	"t64":
+	{
+		"type"       :"close",
+		"lemma"      :"this",
+		"text"       :"this",
+		"pos"        :"D",
+		"morphofeat" :"DT"
+	},
+ 	"t65":
+	{
+		"type"       :"open",
+		"lemma"      :"location",
+		"text"       :"location",
+		"pos"        :"N",
+		"morphofeat" :"NN"
+	},
+ 	"t66":
+	{
+		"type"       :"open",
+		"lemma"      :"have",
+		"text"       :"had",
+		"pos"        :"V",
+		"morphofeat" :"VBD",
+		"opinion"    :"o5"
+	},
+ 	"t67":
+	{
+		"type"       :"close",
+		"lemma"      :"a",
+		"text"       :"a",
+		"pos"        :"D",
+		"morphofeat" :"DT",
+		"opinion"    :"o5"
+	},
+ 	"t68":
+	{
+		"type"       :"open",
+		"lemma"      :"lot",
+		"text"       :"lot",
+		"pos"        :"N",
+		"morphofeat" :"NN",
+		"opinion"    :"o5"
+	},
+ 	"t69":
+	{
+		"type"       :"close",
+		"lemma"      :"of",
+		"text"       :"of",
+		"pos"        :"P",
+		"morphofeat" :"IN",
+		"opinion"    :"o5"
+	},
+ 	"t70":
+	{
+		"type"       :"open",
+		"lemma"      :"sale",
+		"text"       :"sales",
+		"pos"        :"N",
+		"morphofeat" :"NNS",
+		"opinion"    :"o5"
+	},
+ 	"t71":
+	{
+		"type"       :"open",
+		"lemma"      :"item",
+		"text"       :"items",
+		"pos"        :"N",
+		"morphofeat" :"NNS",
+		"opinion"    :"o5"
+	},
+ 	"t72":
+	{
+		"type"       :"close",
+		"lemma"      :"!",
+		"text"       :"!",
+		"pos"        :"O",
+		"morphofeat" :".",
+		"opinion"    :"o5"
+	},
+ 	"t73":
+	{
+		"type"       :"open",
+		"lemma"      :"oh",
+		"text"       :"oh",
+		"pos"        :"N",
+		"morphofeat" :"NN"
+	},
+ 	"t74":
+	{
+		"type"       :"close",
+		"lemma"      :"how",
+		"text"       :"how",
+		"pos"        :"O",
+		"morphofeat" :"WRB"
+	},
+ 	"t75":
+	{
+		"type"       :"open",
+		"lemma"      :"i",
+		"text"       :"i",
+		"pos"        :"N",
+		"morphofeat" :"NNS"
+	},
+ 	"t76":
+	{
+		"type"       :"close",
+		"lemma"      :"can",
+		"text"       :"can",
+		"pos"        :"O",
+		"morphofeat" :"MD",
+		"opinion"    :"o6"
+	},
+ 	"t77":
+	{
+		"type"       :"open",
+		"lemma"      :"'t",
+		"text"       :"'t",
+		"pos"        :"A",
+		"morphofeat" :"RB",
+		"opinion"    :"o6"
+	},
+ 	"t78":
+	{
+		"type"       :"open",
+		"lemma"      :"wait",
+		"text"       :"wait",
+		"pos"        :"V",
+		"morphofeat" :"VB",
+		"opinion"    :"o6"
+	},
+ 	"t79":
+	{
+		"type"       :"close",
+		"lemma"      :"to",
+		"text"       :"to",
+		"pos"        :"P",
+		"morphofeat" :"TO",
+		"opinion"    :"o6"
+	},
+ 	"t80":
+	{
+		"type"       :"open",
+		"lemma"      :"go",
+		"text"       :"go",
+		"pos"        :"V",
+		"morphofeat" :"VB",
+		"opinion"    :"o6"
+	},
+ 	"t81":
+	{
+		"type"       :"open",
+		"lemma"      :"back",
+		"text"       :"back",
+		"pos"        :"A",
+		"morphofeat" :"RB",
+		"opinion"    :"o6"
+	},
+ 	"t82":
+	{
+		"type"       :"close",
+		"lemma"      :"!",
+		"text"       :"!",
+		"pos"        :"O",
+		"morphofeat" :".",
+		"opinion"    :"o6"
+	},
+ 	"t83":
+	{
+		"type"       :"close",
+		"lemma"      :"!",
+		"text"       :"!",
+		"pos"        :"O",
+		"morphofeat" :".",
+		"opinion"    :"o6"
+	},
+ 	"t84":
+	{
+		"type"       :"close",
+		"lemma"      :"the",
+		"text"       :"the",
+		"pos"        :"D",
+		"morphofeat" :"DT",
+		"opinion"    :"o6"
+	},
+ 	"t85":
+	{
+		"type"       :"open",
+		"lemma"      :"staff",
+		"text"       :"staff",
+		"pos"        :"N",
+		"morphofeat" :"NN",
+		"opinion"    :"o6"
+	},
+ 	"t86":
+	{
+		"type"       :"open",
+		"lemma"      :"be",
+		"text"       :"was",
+		"pos"        :"V",
+		"morphofeat" :"VBD"
+	},
+ 	"t87":
+	{
+		"type"       :"open",
+		"lemma"      :"really",
+		"text"       :"really",
+		"pos"        :"A",
+		"morphofeat" :"RB",
+		"opinion"    :"o7"
+	},
+ 	"t88":
+	{
+		"type"       :"open",
+		"lemma"      :"helpful",
+		"text"       :"helpful",
+		"pos"        :"G",
+		"morphofeat" :"JJ",
+		"opinion"    :"o7"
+	},
+ 	"t89":
+	{
+		"type"       :"close",
+		"lemma"      :"with",
+		"text"       :"with",
+		"pos"        :"P",
+		"morphofeat" :"IN",
+		"opinion"    :"o7"
+	},
+ 	"t90":
+	{
+		"type"       :"open",
+		"lemma"      :"get",
+		"text"       :"getting",
+		"pos"        :"V",
+		"morphofeat" :"VBG",
+		"opinion"    :"o7"
+	},
+ 	"t91":
+	{
+		"type"       :"close",
+		"lemma"      :"me",
+		"text"       :"me",
+		"pos"        :"Q",
+		"morphofeat" :"PRP",
+		"opinion"    :"o7"
+	},
+ 	"t92":
+	{
+		"type"       :"open",
+		"lemma"      :"box",
+		"text"       :"boxes",
+		"pos"        :"N",
+		"morphofeat" :"NNS",
+		"opinion"    :"o7"
+	},
+ 	"t93":
+	{
+		"type"       :"close",
+		"lemma"      :"to",
+		"text"       :"to",
+		"pos"        :"P",
+		"morphofeat" :"TO",
+		"opinion"    :"o7"
+	},
+ 	"t94":
+	{
+		"type"       :"open",
+		"lemma"      :"fit",
+		"text"       :"fit",
+		"pos"        :"V",
+		"morphofeat" :"VB",
+		"opinion"    :"o7"
+	},
+ 	"t95":
+	{
+		"type"       :"close",
+		"lemma"      :"my",
+		"text"       :"my",
+		"pos"        :"Q",
+		"morphofeat" :"PRP$",
+		"opinion"    :"o7"
+	},
+ 	"t96":
+	{
+		"type"       :"open",
+		"lemma"      :"odd",
+		"text"       :"odd",
+		"pos"        :"G",
+		"morphofeat" :"JJ",
+		"opinion"    :"o7"
+	},
+ 	"t97":
+	{
+		"type"       :"open",
+		"lemma"      :"shape",
+		"text"       :"shaped",
+		"pos"        :"V",
+		"morphofeat" :"VBN",
+		"opinion"    :"o7"
+	},
+ 	"t98":
+	{
+		"type"       :"open",
+		"lemma"      :"present",
+		"text"       :"presents",
+		"pos"        :"N",
+		"morphofeat" :"NNS",
+		"opinion"    :"o7"
+	},
+ 	"t99":
+	{
+		"type"       :"close",
+		"lemma"      :"and",
+		"text"       :"and",
+		"pos"        :"C",
+		"morphofeat" :"CC",
+		"opinion"    :"o7"
+	},
+ 	"t100":
+	{
+		"type"       :"close",
+		"lemma"      :"they",
+		"text"       :"they",
+		"pos"        :"Q",
+		"morphofeat" :"PRP",
+		"opinion"    :"o7"
+	},
+ 	"t101":
+	{
+		"type"       :"open",
+		"lemma"      :"just",
+		"text"       :"just",
+		"pos"        :"A",
+		"morphofeat" :"RB",
+		"opinion"    :"o7"
+	},
+ 	"t102":
+	{
+		"type"       :"open",
+		"lemma"      :"look",
+		"text"       :"looked",
+		"pos"        :"V",
+		"morphofeat" :"VBD",
+		"opinion"    :"o7"
+	},
+ 	"t103":
+	{
+		"type"       :"open",
+		"lemma"      :"so",
+		"text"       :"so",
+		"pos"        :"A",
+		"morphofeat" :"RB",
+		"opinion"    :"o7"
+	},
+ 	"t104":
+	{
+		"type"       :"open",
+		"lemma"      :"adorable",
+		"text"       :"adorable",
+		"pos"        :"G",
+		"morphofeat" :"JJ",
+		"opinion"    :"o7"
+	},
+ 	"t105":
+	{
+		"type"       :"close",
+		"lemma"      :"in",
+		"text"       :"in",
+		"pos"        :"P",
+		"morphofeat" :"IN",
+		"opinion"    :"o7"
+	},
+ 	"t106":
+	{
+		"type"       :"close",
+		"lemma"      :"their",
+		"text"       :"their",
+		"pos"        :"Q",
+		"morphofeat" :"PRP$",
+		"opinion"    :"o7"
+	},
+ 	"t107":
+	{
+		"type"       :"open",
+		"lemma"      :"box",
+		"text"       :"boxes",
+		"pos"        :"N",
+		"morphofeat" :"NNS",
+		"opinion"    :"o7"
+	},
+ 	"t108":
+	{
+		"type"       :"close",
+		"lemma"      :"when",
+		"text"       :"when",
+		"pos"        :"O",
+		"morphofeat" :"WRB",
+		"opinion"    :"o7"
+	},
+ 	"t109":
+	{
+		"type"       :"close",
+		"lemma"      :"they",
+		"text"       :"they",
+		"pos"        :"Q",
+		"morphofeat" :"PRP",
+		"opinion"    :"o7"
+	},
+ 	"t110":
+	{
+		"type"       :"open",
+		"lemma"      :"be",
+		"text"       :"were",
+		"pos"        :"V",
+		"morphofeat" :"VBD",
+		"opinion"    :"o7"
+	},
+ 	"t111":
+	{
+		"type"       :"close",
+		"lemma"      :"all",
+		"text"       :"all",
+		"pos"        :"D",
+		"morphofeat" :"DT",
+		"opinion"    :"o7"
+	},
+ 	"t112":
+	{
+		"type"       :"open",
+		"lemma"      :"wrap",
+		"text"       :"wrapped",
+		"pos"        :"V",
+		"morphofeat" :"VBN",
+		"opinion"    :"o7"
+	},
+ 	"t113":
+	{
+		"type"       :"open",
+		"lemma"      :"up",
+		"text"       :"up",
+		"pos"        :"A",
+		"morphofeat" :"RB",
+		"opinion"    :"o7"
+	},
+ 	"t114":
+	{
+		"type"       :"close",
+		"lemma"      :".",
+		"text"       :".",
+		"pos"        :"O",
+		"morphofeat" :"."
+	}},
+	"opinions"    : {
+ 	"o1":
+	{   
+		"expression":["t1","t2","t3","t4","t5"],
+		"polarity"  :"positive",
+		"strength"  :"1",
+		"text"      :"looooove anthro ! ! !"
+	},
+ 	"o2":
+	{   
+		"expression":["t10","t11","t12","t13","t14","t15","t9"],
+		"polarity"  :"positive",
+		"strength"  :"1",
+		"text"      :"compared to the one in burlingame huge"
+	},
+ 	"o3":
+	{   
+		"expression":["t17","t18","t19","t20","t21","t22","t23","t24","t25","t26","t27","t28","t29","t30","t31","t32","t33","t34","t35","t36","t37","t38","t39"],
+		"polarity"  :"negative",
+		"strength"  :"1",
+		"text"      :"but small compared to the one in union square and nyc : - ) they have the cutest fashion and home accessories !"
+	},
+ 	"o4":
+	{   
+		"expression":["t41","t42","t43","t44","t45","t46","t47","t48","t49","t50","t51","t52","t53","t54","t55","t56","t57","t58","t59","t60","t61","t62"],
+		"polarity"  :"negative",
+		"strength"  :"1",
+		"text"      :"can only afford the sales racks but when i was here a few weeks ago to pick up some presents for friends"
+	},
+ 	"o5":
+	{   
+		"expression":["t66","t67","t68","t69","t70","t71","t72"],
+		"polarity"  :"positive",
+		"strength"  :"1",
+		"text"      :"had a lot of sales items !"
+	},
+ 	"o6":
+	{   
+		"target"    :["t84","t85"],
+		"expression":["t76","t77","t78","t79","t80","t81","t82","t83"],
+		"polarity"  :"positive",
+		"strength"  :"1",
+		"text"      :"can 't wait to go back ! !"
+	},
+ 	"o7":
+	{   
+		"expression":["t100","t101","t102","t103","t104","t105","t106","t107","t108","t109","t110","t111","t112","t113","t87","t88","t89","t90","t91","t92","t93","t94","t95","t96","t97","t98","t99"],
+		"polarity"  :"positive",
+		"strength"  :"1",
+		"text"      :"they just looked so adorable in their boxes when they were all wrapped up really helpful with getting me boxes to fit my odd shaped presents and"
+	}},
+	
+	"lp"        : [
+{
+	"name"     :"opener-sentence-splitter-en",
+	"timestamp":"2015-03-16T15:13:06Z",
+	"version"  :"0.0.1",
+	"layer"    :"text"
+},
+{
+	"name"     :"opener-tokenizer-en",
+	"timestamp":"2015-03-16T15:13:06Z",
+	"version"  :"1.0.1",
+	"layer"    :"text"
+},
+{
+	"name"     :"ehu-pos-en",
+	"timestamp":"2015-03-16T15:13:06+0000",
+	"version"  :"1.0",
+	"layer"    :"terms"
+},
+{
+	"name"     :"ixa-pipe-nerc-en-default",
+	"timestamp":"2015-03-16T15:13:06+0000",
+	"version"  :"1.1.0",
+	"layer"    :"entities"
+},
+{
+	"name"     :"Deluxe opinion miner (CRF+SVM)",
+	"timestamp":"2015-03-16T15:13:07UTC",
+	"version"  :"10jan2014_2.0",
+	"layer"    :"opinions"
+}]
+}

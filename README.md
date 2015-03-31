@@ -9,3 +9,17 @@
 
 When done, decative the virtualenv:
     deactivate
+
+
+### Integrating the utilties as a subtree
+1.) git remote add utils https://github.com/Reviewify/utilities.git
+2.) git fetch utils
+3.) git checkout -b utils_branch utils/master
+4.) git checkout master
+5.) git read-tree --prefix=utils/ -u utils_branch
+
+### Updating the utils_branch
+1.) git checkout utils_branch
+2.) git pull
+3.) git checkout master
+4.) git merge --squash -s subtree --no-commit rack_branch

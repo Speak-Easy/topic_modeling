@@ -1,0 +1,15 @@
+To reproduce the results:
+
+1.) 
+cat test_review_text.txt | curl -F 'input=<-' "http://opener.olery.com/language-identifier\
+?callbacks\[\]=http://opener.olery.com/tokenizer\
+&callbacks\[\]=http://opener.olery.com/pos-tagger\
+&callbacks\[\]=http://opener.olery.com/ner\
+&callbacks\[\]=http://opener.olery.com/opinion-detector\
+&callbacks\[\]=http://opener.olery.com/outlet"
+
+2.)
+touch opener_results.json
+
+3.)
+curl http://opener.olery.com/outlet/4c5e4729f74263d1dc2b24e6261aeff9.json > opener_results.json
