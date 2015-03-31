@@ -26,12 +26,17 @@ def clean_reviews(path):
 
 def lemmatize_reviews(reviews):
     lemmatized = [lem(review) for review in reviews]
-    return [re.sub('/[A-Z]+', '', word) for revs in lemmatized for word in revs]
+    return [[re.sub('/[A-Z]+', '', word) for word in revs] for revs in lemmatized]
 
 def main():
     clean_revs = clean_reviews(os.curdir)
     # pickle cleaned reviews
-    with open(os.path.join('../../topic_modeling/data', 'cleaned_reviews.pickle'), 'wb') as pickled_reviews:
-        pickle.dump(clean_revs, pickled_reviews)
+    # with open(os.path.join('../../topic_modeling/data', 'cleaned_reviews.pickle'), 'wb') as pickled_reviews:
+    #     pickle.dump(clean_revs, pickled_reviews)
+
+    file = open('raw.txt', 'w')
+    for review in clean_revs:
+        file.write(' '.join(review))
+        file.write('\n')
 
 if __name__ == "__main__": main()
