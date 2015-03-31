@@ -10,6 +10,17 @@ from gensim.utils import smart_open, simple_preprocess
 from gensim.corpora.wikicorpus import _extract_pages, filter_wiki
 from gensim.parsing.preprocessing import STOPWORDS
 
+class ReviewCorpus(object):
+    def __init__(self, raw_data, dictionary):
+	self.raw_data_file = raw_data
+	self.dictionary = dictionary
+	for line in open(raw_data):
+	    dictionary.doc2bow(line.lower().split(), allow_update=True)
+
+    def __iter__(self):
+	for line in open(self.raw_data_file):
+	    yield dictionary.doc2bow(line.lower().split())
+
 def init_logging():
     logging.basicConfig(format="%(levelname)s : %(message)s", level=logging.INFO)
     logging.root.level = logging.INFO
@@ -21,19 +32,13 @@ def head(stream, n=10):
 def tokenize(text):
     return [token for token in simple_preprocess(text) if token not in STOPWORDS]
 
-# IN PLACE OF iter_wiki method, because we use a TextCorpus, use get_texts()
-def build_dictionary_and_clean(reviews):
-    # Place any additional cleaning here in future
-    return gensim.corpora.Dictionary([reviews])
-
 def main():
     init_logging()
-    with open('data/cleaned_reviews.pickle') as f:
-	reviews = pickle.load(f)
+    corpus = ReviewCorpus("./data/raw.txt", gensim.corpora.Dictionary())
     
-    review_dict = build_dictionary_and_clean(reviews)
-    print(review_dict.token2id)
+    print(corpus.dictionary.token2id)
 
-    review_dict.save_as_text('data/review_dictionary.txt')
+    corpus.dictionary.save_as_text('data/review_dictionary.txt')
+    gensim.corpora.MmCorpus.serialize('./data/review_dict.mm', corpus)
 
 if __name__ == '__main__': main()
