@@ -19,7 +19,7 @@ class ReviewCorpus(object):
 
     def __iter__(self):
 	for line in open(self.raw_data_file):
-	    yield dictionary.doc2bow(line.lower().split())
+	    yield self.dictionary.doc2bow(line.lower().split())
 
 def init_logging():
     logging.basicConfig(format="%(levelname)s : %(message)s", level=logging.INFO)
@@ -36,8 +36,6 @@ def main():
     init_logging()
     corpus = ReviewCorpus("./data/raw.txt", gensim.corpora.Dictionary())
     
-    print(corpus.dictionary.token2id)
-
     corpus.dictionary.save_as_text('data/review_dictionary.txt')
     gensim.corpora.MmCorpus.serialize('./data/review_dict.mm', corpus)
 
