@@ -6,7 +6,8 @@ Parses and returns a list of the raw review text of a directory.
 '''
 import json
 import os
-import re
+import re, pickle
+
 
 def get_list_of_raw_reviews(path):
     list_of_raw_reviews = []
@@ -28,9 +29,9 @@ def lemmatize_reviews(reviews):
     return [re.sub('/[A-Z]+', '', word) for revs in lemmatized for word in revs]
 
 def main():
-    # If run directly, just print out the current
-    # directories raw review text
-    #print get_list_of_raw_reviews(os.curdir)
-    print clean_reviews(os.curdir)
+    clean_revs = clean_reviews(os.curdir)
+    # pickle cleaned reviews
+    with open(os.path.join('../../topic_modeling/data', 'cleaned_reviews.pickle'), 'wb') as pickled_reviews:
+        pickle.dump(clean_revs, pickled_reviews)
 
 if __name__ == "__main__": main()
