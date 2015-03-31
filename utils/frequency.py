@@ -3,14 +3,15 @@ from pattern.en import pluralize, singularize, suggest, ngrams, wordnet
 import json, os, operator, pickle, re, sys, getopt, argparse
 
 
-# open stopword list
-stopwords = pickle.load(open("stopwords/stopwords.pickle", "rb"))
+stopwords = ''
 # using a global variable to count total number of words
 total_count = 0
 
-def singularize_words(words_list):
-	return map(singularize, words_list)
-
+def open_pickle():
+	global stopwords
+	# open stopword list
+	stopwords = pickle.load(open("stopwords/stopwords.pickle", "rb"))
+	
 def lowercase_words(words_list):
 	return map(lambda x: x.lower(), words_list)
 
@@ -25,7 +26,7 @@ def remove_stop_words(words_list):
 
 def correct_word(word):
 	if word not in stopwords:
-		return singularize(suggest(word.lower())[0][0])	
+		return singularize(suggest(word.lower())[0][0])
 
 def clean_words_list(words_list):
 	return map(correct_word, words_list)
@@ -67,7 +68,7 @@ def is_number(s):
         float(s)
         return True
     except ValueError:
-        return False	
+        return False
 
 def execute(flag):
 	directory = 'test_files'
@@ -76,7 +77,7 @@ def execute(flag):
 	global total_count
 
 	for root, _, files in os.walk(directory):
-	    for f in files:   	
+	    for f in files:
 	        data = open('text_files/' + f)
 	        # unncessary because its only one line
 	        line = data.readline()
@@ -84,12 +85,12 @@ def execute(flag):
         	if 'review_id' in obj:
         		review = obj['text']
     			generate_frequency(flag, review, frequencies)
-	        			
+
 	print(sorted(calculate_percentage(frequencies, total_count).items(), key=operator.itemgetter(1)))
 
-# main accepts a flag that determines what frequency to calculate. 
+# main accepts a flag that determines what frequency to calculate.
 # If given a 'w', it will calculat word frequency. Any numeric flag
-# will cause it to calculate frequencies of ngrams, where n is the 
+# will cause it to calculate frequencies of ngrams, where n is the
 # value of the flag
 def main(argv):
 	parser = argparse.ArgumentParser(description='Generate a frequency table of ngrams')
