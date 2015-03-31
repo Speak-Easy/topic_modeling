@@ -19,4 +19,4 @@
 1. Checkout the subtree branch: `git checkout utils_branch`
 2. Pull changes: `git pull`
 3. Checkout master branch: `git checkout master`
-4. Merge changes (using --squash): `git merge --squash -s subtree --no-commit rack_branch`
+4. Merge changes (using --squash): `git merge --squash -s subtree --no-commit utils_branch`
