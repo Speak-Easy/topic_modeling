@@ -1,4 +1,5 @@
 ## Gets the topics in the corpus using Latent Dirchlet Allocation (LDA)
+from __future__ import print_function
 
 import logging, gensim, bz2
 import argparse, sys
@@ -9,30 +10,32 @@ corpus = ''
 dictionary = ''
 
 def run_LDA():
-    print 'lda'
+    print('lda')
     global corpus, dictionary
     # extract 100 LDA topics, using 1 pass and updating once every 1 chunk (10,000 documents)
     lda = gensim.models.ldamodel.LdaModel(corpus=corpus, id2word=dictionary, num_topics=100, update_every=1, chunksize=10000, passes=1)
 
     # print the most contributing words for 20 randomly selected topics
-    lda.print_topics(20)
+    print(lda)
+    
+    print(lda.show_topics(1))
 
 def run_LSI():
-    print 'lsi'
+    print('lsi')
     global corpus, dictionary
-    print corpus
+    print(corpus)
     tfidf = models.TfidfModel(corpus)
     corpus_tfidf = tfidf[corpus]
     lsi = models.LsiModel(corpus_tfidf, id2word=dictionary, num_topics=2)
-    lsi.print_topics(2)
+    print(lsi.show_topics(1))
 
 def run_model(model):
     global corpus, dictionary
     # load corpus iterator
     corpus = gensim.corpora.MmCorpus('data/review_dict.mm')
-
+    
     # load dictionary
-    dictionary = gensim.corpora.Dictionary.load_from_text('data/review_dictionary.txt')
+    dictionary = gensim.corpora.Dictionary.load_from_text('data/review_dictionary.txt') 
 
     if (model == 'lda'):
         run_LDA()
